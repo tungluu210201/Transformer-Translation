@@ -21,61 +21,70 @@
 
 
 ## GIỚI THIỆU ĐỒ ÁN
-- Link ứng dụng : http://18.138.240.94 
-- Ứng dụng quản lý điểm học sinh cấp 3 là một công cụ hiệu quả và tiện ích giúp giáo viên và phụ huynh theo dõi và quản lý điểm số của học sinh trong giai đoạn quan trọng của họ. Với sự phát triển không ngừng của công nghệ, việc sử dụng ứng dụng này mang lại nhiều lợi ích cho tất cả các bên liên quan. <br/>
-- Với ứng dụng quản lý điểm học sinh cấp 3, giáo viên có thể dễ dàng nhập và cập nhật điểm số của học sinh một cách nhanh chóng và chính xác. Họ có thể tạo ra các bảng điểm tự động, tính toán điểm trung bình và đánh giá kết quả học tập của từng học sinh dễ dàng. Điều này giúp giáo viên tiết kiệm thời gian và công sức, tăng khả năng phân tích và đánh giá kết quả học tập, và cung cấp thông tin chính xác và minh bạch cho phụ huynh. <br/>
-- Ngoài ra, ứng dụng quản lý điểm học sinh cấp 3 còn cung cấp các tính năng bổ sung như thông báo kết quả học tập, nhắc nhở lịch nộp bài, tạo thống kê điểm số tổng quát, và tương tác trực tiếp với giáo viên thông qua hệ thống tin nhắn hoặc trò chuyện trực tuyến. Điều này tạo điều kiện thuận lợi cho sự giao tiếp và hỗ trợ giữa giáo viên, học sinh và phụ huynh.
+- Đồ án "Neural Machine Translation with Transformer" là một dự án trong lĩnh vực dịch máy sử dụng mô hình Transformer. Mục tiêu chính của dự án là xây dựng một hệ thống dịch máy tự động hiệu quả sử dụng các mô hình học sâu.
+
+- Trong quá khứ, các mô hình dịch máy truyền thống sử dụng phương pháp cơ sở trên các mô hình ngôn ngữ và xác suất. Tuy nhiên, với sự phát triển của deep learning, các mô hình dịch máy sử dụng mạng nơ-ron đã đạt được hiệu suất tốt hơn.
+
+- Trong dự án này, mô hình Transformer được sử dụng làm cơ sở cho việc dịch máy. Mô hình Transformer được giới thiệu bởi Vaswani et al. vào năm 2017 và đã trở thành một trong những công cụ quan trọng trong dịch máy hiện đại.
+
+- Mô hình Transformer dựa trên cơ chế Attention, cho phép mô hình tập trung vào các phần quan trọng của câu nguồn và tạo ra dự đoán chính xác hơn. Nó sử dụng một kiến trúc encoder-decoder với nhiều lớp mã hóa và giải mã, cùng với cơ chế Attention để trích xuất thông tin từ câu nguồn và sinh ra câu dịch.
 
 
-Trình bày sơ lược về sản phẩm. Về mục đích sử dụng sẽ chia ra làm 2 nhóm người sử dụng chính:
+Trình bày sơ lược đồ án.
+-	Mục tiêu: dịch từ tiếng anh sang tiếng việt 
 
--	Admin: là chủ app tạo ra các tài khoản user nhập điểm, cũng có thể nhập điểm, xuất kết quả. 
--	User: là người nhập điểm, xuất kết quả.
+Đồ án môn học Thống kê với đề tài Transformer là kết quả của quá trình cố gắng không ngừng nghỉ của cả nhóm và nhận được sự hướng dẫn tận tình của thầy cô  cùng các bạn học. Qua đây, chúng em xin gửi lời cảm ơn chân thành tới những người đã giúp đỡ chúng  em hoàn thành được đồ án này!
 
-Đồ án môn học Thiết kế phần miềm với đề tài Quản lý học sinh là kết quả của quá trình cố gắng không ngừng nghỉ của cả nhóm và nhận được sự hướng dẫn tận tình của thầy cô  cùng các bạn học. Qua đây, chúng em xin gửi lời cảm ơn chân thành tới những người đã giúp đỡ chúng  em hoàn thành được đồ án này!
+## Công ghệ sử dụng 
+Ngôn ngữ: Python
 
-## Tham khảo 
-UI: [matrix-admin-bt5](https://github.com/wrappixel/matrix-admin-bt5),
-
-Documentation: [Spring boot](https://spring.io/projects/spring-boot), [Thymeleaf](http://thymeleaf.org)
+Thư viện, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvision, sentencepiece, sacremoses
 
 
-## Môi trường thực thi 
-1. Java
-2. Databse mysql
-3. Famework + library: spring boot + thymeleaf + ... 
-4. Visual studio code
+## Môi trường thực thi và phát triễn 
+1. Python
+2. Visual studio code
  
 ## Cài đặt
 1. Clone the repo
-   ```sh
-   git clone https://github.com/duongtanton/TKPM 
-   ```
-2. Init database
-   - Chạy sql cmd trong: TKPM\sources\StudentsManagement\src\main\resources\db
-3. Chạy project
- - Chạy file Application.java trong TKPM\sources\StudentsManagement\src\main\java\com\tkpm\studentsmanagement\Application.java
-## Deploy CI/CD with EC2, Docker, Github action, ...
-- Sử dụng máy unbutu (Tạo trên EC2 của AWS)
-- Docker, Dockerhub
-- Databae mysql (Tạo trên 123host)
-![alt text](./flow.jpeg)
+  ```sh
+  git clone https://github.com/tungluu210201/Transformer-Translation 
+  ```
+2. Mở terminal ngay thư mục app
 
-1. Tạo EC2, key pair, RDS(mysql), tạo security group, mở inbound, outbound ở ec2 cần thiết cho quá trình deploy và download file pem tạo ra khi tạo key pair.
+  **Lúc khởi tạo (khi chưa có folder venv)
 
-    [Tạo ec2 aws](https://aws.amazon.com/premiumsupport/knowledge-center/free-tier-windows-instance) 
-    
-    [Tạo key pair aws](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html) 
-    
-    [Tạo RDS aws](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html) 
+  B1 : 
+  ```sh
+  py -m venv venv
+  ```
+  B2 : 
+  ```sh
+  venv\Scripts\activate
+  ```
+  B3 : 
+  ```sh
+  pip install -r requirements.txt
+  ```
+  B4 : 
+  ```sh
+  flask --app flaskr run --debugger --reload --host=0.0.0.0 --port=4201 // chạy với port 4200 (puplic), nếu muốn public ra ngoài phải config lại router
+  ```
 
-2. Sử dụng file pem vừa mới download connect tới ec2 vừa tạo. [Xem tại đây](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+  **Lúc khởi tạo (khi có folder venv)// mở terminal ngay thư mục app
+  
+  B2 : 
+  ```sh
+  venv\Scripts\activate
+  ```
+  B2 :
+  ```sh
+  flask --app flaskr run --debugger --reload --host=0.0.0.0 --port=4201 // chạy với port 4200 (puplic), nếu muốn public ra ngoài phải config lại router
+  ```
 
-3. Cài đặt docker cho máy ec2. [Xem tại đây](https://azdigi.com/blog/linux-server/tools/huonng-dan-cai-dat-docker-tren-ubuntu-22-04/)
+3. Sau khi chạy có thể truy cập vào đường link: http://localhost:4201/
 
-4. Tạo file config như project. Lưu ý nhớ chuyển config từ db local sang db trên aws(rds). [Xem tại đây](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_RDS_Configuring.html)
-
-7. Hoàn thành. Có thể truy cập thông qua địa chỉ ip và port chạy ở bước 5. Ví dụ ( 18.138.240.94 ) nếu hiện ra website của mình là thành công.
+4. Hoàn thành.
 
 ### KẾT THÚC.
 Chúng em xin tỏ lòng kính trọng và biết ơn sâu sắc đến thầy cô giáo là người trực tiếp hướng dẫn đồ án. Thầy cô đã cung cấp cho chúng em những tài liệu cần thiết cho đồ án của chúng em. 

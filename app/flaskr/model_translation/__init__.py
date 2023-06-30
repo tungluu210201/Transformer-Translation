@@ -230,15 +230,15 @@ encoder = Encoder(vocab_size=tokenizer.vocab_size + 1,
                   max_len=512,
                   d_k=16,
                   d_model=512,
-                  n_heads=4,
-                  n_layers=2,
+                  n_heads=8,
+                  n_layers=6,
                   dropout_prob=0.1)
 decoder = Decoder(vocab_size=tokenizer.vocab_size + 1,
                   max_len=512,
                   d_k=16,
                   d_model=512,
-                  n_heads=4,
-                  n_layers=2,
+                  n_heads=8,
+                  n_layers=6,
                   dropout_prob=0.1)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 encoder.to(device)

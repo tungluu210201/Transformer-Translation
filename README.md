@@ -31,9 +31,9 @@
 
 
 Trình bày sơ lược đồ án.
--	Mục tiêu: dịch từ tiếng anh sang tiếng việt 
+-	Mục tiêu: dịch từ tiếng Anh ( English ) sang tiếng Việt ( Vietnamese )
 
-Đồ án môn học Thống kê với đề tài Transformer là kết quả của quá trình cố gắng không ngừng nghỉ của cả nhóm và nhận được sự hướng dẫn tận tình của thầy cô  cùng các bạn học. Qua đây, chúng em xin gửi lời cảm ơn chân thành tới những người đã giúp đỡ chúng  em hoàn thành được đồ án này!
+Đồ án môn học Thống kê với đề tài Transformer là kết quả của quá trình cố gắng không ngừng nghỉ của cả nhóm. Qua đây, đây cũng là đồ án cuối cùng của môn học nên chúng em xin gửi lời cảm ơn chân thành tới hai giảng viên đã tận tình giảng dạy và hướng dẫn tụi em trong môn học này!
 
 ## Công nghệ sử dụng 
 Ngôn ngữ: Python

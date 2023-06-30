@@ -35,7 +35,7 @@ Trình bày sơ lược đồ án.
 
 Đồ án môn học Thống kê với đề tài Transformer là kết quả của quá trình cố gắng không ngừng nghỉ của cả nhóm và nhận được sự hướng dẫn tận tình của thầy cô  cùng các bạn học. Qua đây, chúng em xin gửi lời cảm ơn chân thành tới những người đã giúp đỡ chúng  em hoàn thành được đồ án này!
 
-## Công ghệ sử dụng 
+## Công nghệ sử dụng 
 Ngôn ngữ: Python
 
 Thư viện, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvision, sentencepiece, sacremoses

@@ -55,7 +55,9 @@ Thư viện, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvisio
   - vào đường link sau là tải file transformer_model.pth là file trọng số về 
     + https://drive.google.com/file/d/1EImLEUTnhuzJL1P7ffzhdqCP1M93u5lP/view?usp=sharing 
   - copy bỏ vào thư mục mới tạo ở trên trên
-  ** nguyên nhân không bỏ vào git là, git không chấp nhận những file lớn hơn 100MB
+
+  - nguyên nhân không bỏ vào git là, git không chấp nhận những file lớn hơn 100MB
+
 3. Mở terminal ngay thư mục app
 
   **Lúc khởi tạo (khi chưa có folder venv)

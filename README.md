@@ -50,7 +50,15 @@ Thư viện, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvisio
   ```sh
   git clone https://github.com/tungluu210201/Transformer-Translation 
   ```
-2. Mở terminal ngay thư mục app
+2. Tạo thư mục theo đường dẫn
+  - app\flaskr\model_translation\data
+  - vào đường link sau là tải file transformer_model.pth là file trọng số về 
+    + https://drive.google.com/file/d/1EImLEUTnhuzJL1P7ffzhdqCP1M93u5lP/view?usp=sharing 
+  - copy bỏ vào thư mục mới tạo ở trên trên
+
+  - nguyên nhân không bỏ vào git là, git không chấp nhận những file lớn hơn 100MB
+
+3. Mở terminal ngay thư mục app
 
   **Lúc khởi tạo (khi chưa có folder venv)
 
@@ -68,20 +76,22 @@ Thư viện, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvisio
   ```
   B4 : 
   ```sh
-  flask --app flaskr run --debugger --reload --host=0.0.0.0 --port=4201 // chạy với port 4200 (puplic), nếu muốn public ra ngoài phải config lại router
+  flask --app flaskr run --debugger --reload --host=0.0.0.0 --port=4201 
   ```
-
-  **Lúc khởi tạo (khi có folder venv)// mở terminal ngay thư mục app
+  + chạy với port 4200 (puplic), nếu muốn public ra ngoài phải config lại router
   
-  B2 : 
+  
+  ** Lúc khởi tạo (khi có folder venv)// mở terminal ngay thư mục app
+
+  B1 : 
   ```sh
   venv\Scripts\activate
   ```
   B2 :
   ```sh
-  flask --app flaskr run --debugger --reload --host=0.0.0.0 --port=4201 // chạy với port 4200 (puplic), nếu muốn public ra ngoài phải config lại router
+  flask --app flaskr run --debugger --reload --host=0.0.0.0 --port=4201 
   ```
-
+  + chạy với port 4200 (puplic), nếu muốn public ra ngoài phải config lại router
 3. Sau khi chạy có thể truy cập vào đường link: http://localhost:4201/
 
 4. Hoàn thành.

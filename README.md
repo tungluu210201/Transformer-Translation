@@ -39,9 +39,6 @@ Library, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvision, s
     - `app\flaskr\model_translation\data`
     - Go to the following link to download the `transformer_model.pth` weight file: [Download Link](https://drive.google.com/file/d/1EImLEUTnhuzJL1P7ffzhdqCP1M93u5lP/view?usp=sharing)
     - Copy and place it into the newly created folder above.
-  
-    - The reason it's not added to the git repo is that git does not accept files larger than 100MB.
-
 3. Open a terminal in the `app` directory.
 
     **When initializing (if the `venv` folder does not exist):**

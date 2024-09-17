@@ -26,9 +26,9 @@
 ![Demo GIF](./demo.gif)
 
 ## Technical
-Programming language: Python
+1. Programming language: Python
 
-Library, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvision, sentencepiece, sacremoses
+2. Library, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvision, sentencepiece, sacremoses
 
 ## Environment
 1. Python

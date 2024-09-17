@@ -7,10 +7,10 @@
        <strong>Members: </strong>
     <br />
     <li>
-    <a href="https://github.com/tungluuai" target="_blank">Tung Luu</a>: serves as an ML Engineer (Team Leader).
+    <a href="https://github.com/tungluuai" target="_blank">Tung Luu</a> serves as an ML Engineer (Team Leader).
     </li>
     <li>
-     <a href="https://github.com/duongtanton" target="_blank">Ton Duong</a>: serves as a Web Developer.
+     <a href="https://github.com/duongtanton" target="_blank">Ton Duong</a> serves as a Web Developer.
     </li>
     </ol>
   </p>
@@ -21,6 +21,10 @@
 
 - Transformer model is trained from scratch on two datasets:  <a href="https://huggingface.co/datasets/IWSLT/mt_eng_vietnamese" target="_blank">IWSLT'15 English-Vietnamese</a> and the dataset comprising 254,090 sentence pairs available on <a href="https://www.kaggle.com/discussions/general/253495" target="_blank">Kaggle</a>. Please refer to <a href="https://arxiv.org/pdf/1706.03762" target="_blank">Vaswani et al.'s paper</a> to gain a deeper understanding of this model.
 - The model was evaluated using common metrics: BLEU, WER, and METEOR. Qualitative results indicate that the application demonstrates high semantic accuracy and expressiveness on short input sequences.
+
+## Demo
+![Demo GIF](./demo.gif)
+
 ## Technical
 Programming language: Python
 

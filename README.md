@@ -31,8 +31,7 @@
 2. Library, framework: Flask, flask, Flask-SQLAlchemy, transformers, torchvision, sentencepiece, sacremoses
 
 ## Environment
-1. Python
-2. Visual Studio Code
+1. Visual Studio Code
 
 ## Implementation
 1. Clone the repo

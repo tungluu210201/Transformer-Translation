@@ -10,7 +10,7 @@
     <a href="https://github.com/tungluuai" target="_blank">Tung Luu</a> serves as an ML Engineer (Team Leader).
     </li>
     <li>
-     <a href="https://github.com/duongtanton" target="_blank">Ton Duong</a> serves as a Web Developer.
+     <a href="https://github.com/duongtanton" target="_blank">Ton Duong</a> serves as a Software Engineer.
     </li>
     </ol>
   </p>
